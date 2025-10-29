@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9fbp(=jm-^tck95e5m@99%1^1s3v3^^s!%gmj@(e@tp$)em1e@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
 
 ALLOWED_HOSTS = [
     "calorie-tracker-cmlc.onrender.com"
