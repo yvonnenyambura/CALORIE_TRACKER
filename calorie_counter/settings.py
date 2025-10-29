@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-9fbp(=jm-^tck95e5m@99%1^1s3v3^^s!%gmj@(e@tp$)em1e@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "calorie-tracker-cmlc.onrender.com"
+]
 
 
 # Application definition
